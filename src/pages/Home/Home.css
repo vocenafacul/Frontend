@@ -1,0 +1,39 @@
+.Container2 {
+    background-color: #4d4b4c;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ButtomHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin: 5px 20px 0px 20px;
+    width: 130px;
+    height: 130px;
+}
+
+.ImageButtomHome {
+    width: 100px;
+}
+
+@media(max-width: 400px) {
+
+}
+
+@media(max-width: 600px) {
+    
+
+}
+
+@media(max-width: 800px) {
+
+}
+
+@media(max-width: 1200px) {
+    
+}

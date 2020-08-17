@@ -1,0 +1,272 @@
+.pageLogin {
+  height: 100vh;
+  background-image: url("body.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divLoginCadastro {
+
+  width: 450px;
+  height: 550px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.726);
+}
+
+.LoginRouter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 550px;
+} 
+
+.LoginSup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divinputlogin{
+  height: 120px;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 50px;
+}
+
+.divinputCadastro{
+  height: 280px;
+  justify-content: start;
+  width: 300px;
+  margin-top: 20px;
+}
+
+input {
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  padding-left: 5px;
+  margin-bottom: 15px;
+}
+
+.ForgotPassWord {
+  width: 300px;
+  display: flex;
+  justify-content: start;
+  margin-top: 5px;
+}
+
+.buttonLogin {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+}
+
+.buttonLogin button{
+  width: 130px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: #5679A6;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.74);
+}
+
+.buttonCadastro {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.buttonCadastro button{
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: #5679A6;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.74);
+}
+
+.buttonCadastro button:focus{
+  outline: none;
+  background-color: #F8591F;
+}
+
+a {
+  color: #5679A6;
+}
+
+a:hover {
+  color: #F8591F;
+}
+
+.selectPers {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+label {
+  color: rgba(0, 0, 0, 0.534);
+}
+
+button:focus {
+  outline: none;
+}
+
+.colaborator {
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  color: white;
+}
+
+@media (max-width: 300px) {
+  .divLoginCadastro {
+    width: 260px;
+  }
+
+  input{
+    width: 250px;
+  }
+
+  .buttonLogin{
+    width: 250px;
+  }
+  
+  .ForgotPassWord {
+    width: 250px;
+  }
+
+  .selectPers{
+    width: 250px;
+  }
+
+  .colaborator {
+    bottom: 0px;
+  }
+
+  .LoginRouter {
+    height: 470px;
+  }
+
+  .divLoginCadastro {
+    height: 470px;
+  }
+
+  .buttonCadastro {
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+}
+
+
+@media (min-width: 301px) and (max-width: 400px) {
+  .divLoginCadastro {
+    width: 300px;
+  }
+
+  input{
+    width: 250px;
+  }
+
+  .buttonLogin{
+    width: 250px;
+  }
+  
+  .ForgotPassWord {
+    width: 250px;
+  }
+
+  .selectPers{
+    width: 250px;
+  }
+
+  .colaborator {
+    bottom: 0px;
+  }
+
+  .buttonCadastro {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .divLoginCadastro {
+    width: 390px;
+  }
+  .colaborator {
+    bottom: 0px;
+  }
+
+  .buttonCadastro {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .divLoginCadastro {
+    margin-right: 100px;
+  }
+  .pageLogin {
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1366px) {
+  .divLoginCadastro {
+    margin-right: 100px;
+  }
+  .pageLogin {
+    justify-content: flex-end;
+  }
+  
+  .divinputlogin{
+    margin-top: 70px;
+  }
+  
+  .divinputCadastro{
+
+    margin-top: 70px;
+  }
+
+}
+
+@media (min-width: 1367px) {
+  .divLoginCadastro {
+    margin-right: 100px;
+    width: 550px;
+    height: 650px;
+  }
+  .pageLogin {
+    justify-content: flex-end;
+  }
+
+  .LoginRouter {
+    height: 650px;
+  }
+
+  .divinputlogin{
+    margin-top: 70px;
+  }
+  
+  .divinputCadastro{
+
+    margin-top: 70px;
+  }
+
+}
