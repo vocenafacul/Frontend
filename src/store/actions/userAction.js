@@ -41,9 +41,4 @@ export async function register(state){
 
         })
     }
-
-    return {
-        type: "REGISTER_USER",
-        
-    };
 }

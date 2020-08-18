@@ -3,7 +3,6 @@ import 'font-awesome/css/font-awesome.min.css'
 
 import React from 'react';
 import Routes from './router'
-import './App.css';
 import Footer from './components/footers';
 
 class App extends React.Component {
